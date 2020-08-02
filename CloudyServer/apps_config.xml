@@ -1,0 +1,5 @@
+<Applications>
+    <Application Path="./apps/pdfreader" Icon="./apps/pdfreader.png" />
+    <Application Path="./apps/calcapp" Icon="./apps/calcapp.png" />
+    <Application Path="./apps/cloudy" Icon="./apps/cloudy.png" />
+</Applications>

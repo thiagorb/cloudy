@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de cabeçalho"
+                   projectFiles="true">
+      <itemPath>bytestream.h</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/cloudy_app.h</itemPath>
+      <itemPath>cloudy_layout.h</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/cloudy_widgets.h</itemPath>
+      <itemPath>cloudytk.h</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/command.h</itemPath>
+      <itemPath>command_def.h</itemPath>
+      <itemPath>enum_def.h</itemPath>
+      <itemPath>interface.h</itemPath>
+      <itemPath>mutex.h</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/pipe.h</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/socket.h</itemPath>
+      <itemPath>tunnel.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de código-fonte"
+                   projectFiles="true">
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/bytestream.c</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/cloudy_app.c</itemPath>
+      <itemPath>cloudy_layout.c</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/cloudy_widgets.c</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/command.c</itemPath>
+      <itemPath>interface.c</itemPath>
+      <itemPath>mutex.c</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/pipe.c</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/socket.c</itemPath>
+      <itemPath>../../../Área de trabalho/Cloudy/CloudyTK/tunnel.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de testes"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandLine>-O0</commandLine>
+        </cTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>-g</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
